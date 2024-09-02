@@ -439,26 +439,7 @@
 /*** Carousel Hero Header End ***/
 
 
-/*** about us ***/
-#about-us {
-    margin: 20px 0;
-}
 
-#about-us h2 {
-    color: #d5006d; /* Heading color */
-    border-bottom: 2px solid #d5006d; /* Underline for heading */
-    padding-bottom: 10px;
-}
-
-#about-us p {
-    color: #333; /* Text color */
-    margin: 10px 0; /* Margin for paragraphs */
-}
-
-#about-us strong {
-    color: #d5006d; /* Strong text color */
-}
-/*** about us ***/
 
 
 /*** service Start ***/
