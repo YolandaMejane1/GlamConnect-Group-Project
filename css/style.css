@@ -525,50 +525,105 @@
 
 /*** Features Start ***/
 
-#features-h5 {
-    color: #ff0054; /* Set features header color to deep pink */
-    font-size: 27px; /* Set features header size */
+.landing-faq-card {
+    box-shadow: 0 2px 30px 0 rgba(207, 207, 207, 0.5);
+    border: 0;
+    border-radius: 0;
+
+    .card-header {
+
+        a{
+            color: inherit;
+            text-decoration: none;
+
+            &:hover {
+                color: inherit;
+            }
+        }
+        h6{
+            .landing-faq-section &{
+                font-weight: font-weight-normal;
+            }
+            
+        }
+
+        i {
+            color: #152c5b;
+        }
+    }
+
+    .card-body {
+        p {
+            font-size: 14px;
+        }
+    }
 }
+
 .feature-faq-card {
     border-radius: 0;
     border: 0;
-    border-bottom: 1px solid #e9ecf1; }
-    .feature-faq-card:last-child {
-      border-bottom: 0; }
-    .feature-faq-card .card-header {
-      border-bottom: 0;
-      padding-top: 23px;
-      padding-bottom: 23px;
-      padding-left: 0; }
-      .feature-faq-card .card-header h6 {
-        line-height: 1.25; }
-      .feature-faq-card .card-header a {
-        color: inherit; }
-        .feature-faq-card .card-header a:hover {
-          text-decoration: none; }
-        .feature-faq-card .card-header a i {
-          color: #152c5b;
-          font-size: 18px; }
-    .feature-faq-card .card-body {
-      background-color: #f5f6f8; }
-      .feature-faq-card .card-body p {
-        font-size: 14px;
-        line-height: 1.76; }
-  
-  .faq-card {
+    border-bottom: 1px solid #e9ecf1;
+
+    &:last-child {
+        border-bottom: 0;
+    }
+
+    .card-header {
+        border-bottom: 0;
+        padding-top: 23px;
+        padding-bottom: 23px;
+        padding-left: 0;
+
+        h6{
+            line-height: 1.25;
+        }
+
+        a{
+            color: inherit;
+
+            &:hover {
+                text-decoration: none;
+            }
+
+            i {
+                color: #152c5b;
+                font-size: 18px;
+            }
+        }
+    }
+
+    .card-body {
+        background-color: theme-color(secondary);
+
+        p{
+            font-size: 14px;
+            line-height: 1.76;
+        }
+    }
+}
+
+.faq-card {
     border: 0;
     border-radius: 6px;
     box-shadow: 0 2px 30px 0 rgba(207, 207, 207, 0.5);
-    margin-bottom: 32px; }
-    .faq-card .card-header {
-      padding: 22px 42px 22px 54px;
-      border-bottom: 0; }
-      .faq-card .card-header a {
-        color: inherit; }
-        .faq-card .card-header a:hover {
-          text-decoration: none; }
-    .faq-card .card-body {
-      background-color: #f5f6f8; }
+    margin-bottom: 32px;
+
+    .card-header {
+        padding: 22px 42px 22px 54px;
+        border-bottom: 0;
+
+        a{
+            color: inherit;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+    }
+    .card-body {
+        background-color: theme-color(secondary);
+    }
+}
   
   
   /* Responsive Styles */
