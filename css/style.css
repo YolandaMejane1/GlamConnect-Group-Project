@@ -521,40 +521,36 @@
 
 /*** Features Start ***/
 
+#features-h5 {
+    color: #ff0054; /* Set features header color to deep pink */
+    font-size: 27px; /* Set features header size */
+  }
 
-
-.feature-section {
-    padding: 80px 0;
-    background-color: #f7f7f7;
-    text-align: center;
-  }
-  
-  .feature-section .feature-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .feature-section .feature {
-    margin-bottom: 40px;
-  }
-  
-  .feature-section .feature-icon {
-    font-size: 48px;
-    color: #3498db;
-    margin-bottom: 20px;
-  }
-  
-  .feature-section .feature-title {
-    font-size: 24px;
-    font-weight: bold;
-    margin-bottom: 10px;
-  }
-  
-  .feature-section .feature-description {
-    font-size: 18px;
-    color: #666;
-  }
+.feature-faq-card {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid #e9ecf1; }
+    .feature-faq-card:last-child {
+      border-bottom: 0; }
+    .feature-faq-card .card-header {
+      border-bottom: 0;
+      padding-top: 23px;
+      padding-bottom: 23px;
+      padding-left: 0; }
+      .feature-faq-card .card-header h6 {
+        line-height: 1.25; }
+      .feature-faq-card .card-header a {
+        color: inherit; }
+        .feature-faq-card .card-header a:hover {
+          text-decoration: none; }
+        .feature-faq-card .card-header a i {
+          color: #152c5b;
+          font-size: 18px; }
+    .feature-faq-card .card-body {
+      background-color: #f5f6f8; }
+      .feature-faq-card .card-body p {
+        font-size: 14px;
+        line-height: 1.76; }
   
   /* Responsive Styles */
   
