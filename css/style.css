@@ -524,8 +524,7 @@
 #features-h5 {
     color: #ff0054; /* Set features header color to deep pink */
     font-size: 27px; /* Set features header size */
-  }
-
+}
 .feature-faq-card {
     border-radius: 0;
     border: 0;
@@ -551,6 +550,22 @@
       .feature-faq-card .card-body p {
         font-size: 14px;
         line-height: 1.76; }
+  
+  .faq-card {
+    border: 0;
+    border-radius: 6px;
+    box-shadow: 0 2px 30px 0 rgba(207, 207, 207, 0.5);
+    margin-bottom: 32px; }
+    .faq-card .card-header {
+      padding: 22px 42px 22px 54px;
+      border-bottom: 0; }
+      .faq-card .card-header a {
+        color: inherit; }
+        .faq-card .card-header a:hover {
+          text-decoration: none; }
+    .faq-card .card-body {
+      background-color: #f5f6f8; }
+  
   
   /* Responsive Styles */
   
