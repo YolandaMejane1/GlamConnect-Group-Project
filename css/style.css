@@ -609,7 +609,32 @@
     }
   }
 /*** Features End ***/
+    
 
+.foi-feature {
+    margin-bottom: 46px; }
+    .foi-feature .feature-icon {
+      width: 30px;
+      margin-bottom: 17px; }
+    .foi-feature .feature-title {
+      line-height: 1.75;
+      font-size: 20px; }
+    .foi-feature .feature-content {
+      font-size: 18px;
+      color: #3a3a3a;
+      margin-bottom: 12px;
+      line-height: 1.56; }
+    .foi-feature .feature-link {
+      font-size: 14px;
+      font-weight: 700;
+      color: #6206a8; }
+      .foi-feature .feature-link:hover, .foi-feature .feature-link:focus {
+        color: #54058f; }
+  
+  .feature-faq-title {
+    font-size: 30px;
+    line-height: 1.33;
+    margin-bottom: 24px; }
 
 /*** Country Start ***/
 .country .country-item {
